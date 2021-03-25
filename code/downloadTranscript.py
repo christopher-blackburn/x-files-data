@@ -38,7 +38,7 @@ for season in range(1,10):
         
         episode_text = [t.getText() for t in soup.findAll('p')]
 
-        episode_transcript.append(pd.DataFrame.from_dict(
+        episode_list.append(pd.DataFrame.from_dict(
             {'episode_transcript': [' '.join(episode_text)], 'season':[season],'episode':[episode]}))
 
         
@@ -71,7 +71,7 @@ for season in range(1,10):
             
 mulder_lines = pd.concat(mulder_list)
 scully_lines = pd.concat(scully_list)
-episode_lines = pd.concat(epsiode_transcript)
+episode_lines = pd.concat(epsiode_list)
 
 mulder_lines.to_csv(saveDir + 'mulder_lines.csv',index=False)
 scully_lines.to_csv(saveDir + 'scully_lines.csv',index=False) 
