@@ -10,6 +10,6 @@ Blackburn, Christopher, "X-Files Topic Modeling", (2021), Github Repository.
 
 ### Transcripts
 
-The transcripts for the show come from the [Inside-the-X](http://www.insidethex.co.uk/#one) website and much respect and gratitude goes to the creators of those transcripts. 
+The show's transcripts come from the [Inside-the-X](http://www.insidethex.co.uk/#one) website and much respect and gratitude goes to the creators of those transcripts. 
 
 
